@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAPPY BIRTHDAY MAHAL KO!</title>
+  <link rel="stylesheet" href="style 2.css" />
+ 
+</head>
+<body>
+
+    <section>
+      <video id="slider" autoplay loop>
+        <source src="videos/video1.mp4" type="video/mp4">
+      </video>
+        <ul class="navigation">
+          <li onClick="videoUrl('videos/video1.mp4')"><img src="img/thumb1.jpg"></li>
+          <li onClick="videoUrl('videos/video2.mp4')"><img src="img/thumb2.jpg"></li>
+          <li onClick="videoUrl('videos/video3.mp4')"><img src="img/thumb3.jpg"></li>
+          <li onClick="videoUrl('videos/video4.mp4')"><img src="img/thumb4.jpg"></li>
+          <li onClick="videoUrl('videos/video5.mp4')"><img src="img/thumb5.jpg"></li>
+          <li onClick="videoUrl('videos/video6.mp4')"><img src="img/thumb6.jpg"></li>
+          <li onClick="videoUrl('videos/video7.mp4')"><img src="img/thumb7.jpg"></li>
+          <li onClick="videoUrl('videos/video8.mp4')"><img src="img/thumb8.jpg"></li>
+        </ul>          
+    </section>
+    
+  <script type="text/javascript">
+    function videoUrl(hmmmmmm){
+        document.getElementById("slider").src = hmmmmmm;
+    }
+  
+  </script>
+
+  
+</body>
+</html>
+
